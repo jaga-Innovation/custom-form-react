@@ -24,6 +24,8 @@ label {
     font-size: 14px;
     margin-bottom: 5px;
     color: #b0b0b0;
+    text-align: left;
+    padding-left: 3%;
 }
 
 input {
