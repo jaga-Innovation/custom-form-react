@@ -2,7 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import CustomForm from './assets/CustomForm'
+import CustomForm from './CustomForm'
+import { validateForm } from './form/validation'
+import FormDisplay from './form/FormDisplay'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,7 +27,11 @@ function App() {
         
       </div>
 
-      <CustomForm/>
+      {/* <CustomForm/> */}
+
+      
+      {/* <h1>Custom Form with Validation</h1>
+      <FormDisplay /> */}
     </>
   )
 }
