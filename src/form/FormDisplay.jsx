@@ -78,7 +78,9 @@ function FormDisplay() {
           value={formData.phoneNumber}
           onChange={handleChange}
         />
-        {errors.phoneNumber && <p style={{ color: "red" }}>{errors.phoneNumber}</p>}
+        {errors.phoneNumber && (
+          <p style={{ color: "red" }}>{errors.phoneNumber}</p>
+        )}
       </div>
 
       <div>
